@@ -61,8 +61,7 @@ function Projects() {
               imgPath={gniot}
               isBlog={false}
               title="[GDSC-GNIOT] Study Jams Completion Tracker"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="A website that tracks the completion status of Google Cloud Computing Foundation Course and GenAI Arcade Game of students studying in GNIOT, it is a website to help GDSC-GNIOT to track and help students to complete their Google Cloud Courses for the Google Cloud Study Jams 2023 [Cohort-1]"
               ghLink="https://github.com/Chitresh-code/GDSC-GNIOT-Completion-Tracker"
               demoLink="https://cloud-student-tracker.web.app/" 
             />
