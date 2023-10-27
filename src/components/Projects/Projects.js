@@ -27,8 +27,8 @@ function Projects() {
               title="Face Recognition Software"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              ghLink="https://github.com/Chitresh-code/Face-Recognition-Tool/"
+              // demoLink="url"      <-------- Demo link here 
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               title="CaseFlow"
               description="A project selected for Smart India Hackathon on Problem Statement: Development of e-Portal for facilitating Case Management Hearing of various types of cases. We are trying to make a secure portal for hearing of pre trial confrence equiped with AI and Cybersecurity. From filing reports to hearings to finally making and reading of reports for your cases will be on a single website."
               ghLink="https://github.com/Chitresh-code/CaseFlow"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              // demoLink="url"      <-------- Demo link here               
             />
           </Col>
 
@@ -48,9 +48,9 @@ function Projects() {
               imgPath={aquafy}
               isBlog={false}
               title="Aquafy"
-              description="A project I made for Google Solution Challange"
+              description="A project I made for Google Solution Challange, it is based on the United Nations Sustainable Development Goals: Clean Water and Sanitisation. In this app we used Google Maps API to locate and target the clean and fresh water sources around the whole country which can be located and accesed through this app."
               ghLink="https://github.com/Chitresh-code/Aquafy"
-              // demoLink="https://chatify-49.web.app/"
+              // demoLink="url"      <-------- Demo link here 
             />
           </Col>
 
