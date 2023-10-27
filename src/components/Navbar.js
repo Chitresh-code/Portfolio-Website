@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Chitresh-code/Portfolio"
+                href="https://github.com/Chitresh-code/Portfolio-Website/"
                 target="_blank"
                 className="fork-btn-inner"
               >
