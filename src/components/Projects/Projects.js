@@ -72,10 +72,9 @@ function Projects() {
               imgPath={dsa}
               isBlog={false}
               title="DSA Worksheet"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="It is a GitHub Repository for Hacktoberfest where we post daily issues (DSA Questions) and students are allowed to solve those questions and merge their PRs as to get started with Hacktoberfest and learn to contribute in open source. It was made and maintained in Collaboration with GDSC-GNIOT."
               ghLink="https://github.com/Chitresh-code/DSA_Worksheet"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="url"      <-------- Demo link here 
             />
           </Col>
         </Row>
