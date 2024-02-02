@@ -24,9 +24,8 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition Software"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              title="Face Recognition Tool"
+              description="Developed a user-friendly face recognition tool in Python, enabling training models for specific faces and testing against unknown images. Employed face_recognition library, built usable datasets, and implemented argparse for an intuitive command-line interface, showcasing adaptability and proficiency in image processing."
               ghLink="https://github.com/Chitresh-code/Face-Recognition-Tool/"
               // demoLink="url"      <-------- Demo link here 
             />
