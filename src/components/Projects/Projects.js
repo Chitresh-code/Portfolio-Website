@@ -7,6 +7,8 @@ import emotion from "../../Assets/Projects/emotion.png";
 import caseflow from "../../Assets/Projects/codeEditor.png";
 import aquafy from "../../Assets/Projects/chatify.png";
 import dsa from "../../Assets/Projects/dsa.png";
+import stock from "../../Assets/Projects/stock.png";
+import twitter from "../../Assets/Projects/twitter.png";
 
 function Projects() {
   return (
@@ -30,6 +32,28 @@ function Projects() {
               // demoLink="url"      <-------- Demo link here 
             />
           </Col>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stock}
+              isBlog={false}
+              title="Stock Price Prediction"
+              description="This project leverages the K-Nearest Neighbors (KNN) algorithm to predict stock prices based on historical data. Stock price prediction is a crucial task in the financial domain, enabling investors to make informed decisions about buying or selling stocks. KNN, a simple yet effective machine learning algorithm, is utilized here due to its intuitive nature and ease of implementation."
+              ghLink="https://github.com/Chitresh-code/Stock-Price-Prediction-using-KNN"
+              // demoLink="url"      <-------- Demo link here               
+            />
+        </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twitter}
+              isBlog={false}
+              title="Twitter Sentiment Analysis"
+              description="This project performs sentiment analysis on Twitter data using a dataset of 1.6 million tweets sourced from Kaggle. The sentiment of each tweet is labeled as either negative (0) or positive (1). The analysis involves preprocessing the text data, including removing stopwords, stemming, and vectorization. The dataset is then split into training and testing data, and a logistic regression model is trained to classify the sentiment of tweets."
+              ghLink="https://github.com/Chitresh-code/Twitter-Sentiment-Analysis"
+              // demoLink="url"      <-------- Demo link here               
+            />
+        </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
@@ -40,7 +64,7 @@ function Projects() {
               ghLink="https://github.com/Chitresh-code/CaseFlow"
               // demoLink="url"      <-------- Demo link here               
             />
-          </Col>
+        </Col>
 
         <Col md={4} className="project-card">
             <ProjectCard
