@@ -15,29 +15,30 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  const resumeScale = 1.5;
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "static" }}>
+        <Row style={{ justifyContent: "center" }}>
           <Button
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "150px" }}
+            style={{ maxWidth: "150px", marginBottom: "20px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
 
-        <Row className="resume">
+        <Row className="resume" style={{ justifyContent: "center" }}>
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={0.5} />
+            <Page pageNumber={1} scale={resumeScale} />
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "fixed" }}>
+        <Row style={{ justifyContent: "center", position: "fixed", bottom: "20px", width: "100%" }}>
           <Button
             variant="primary"
             href={pdf}
