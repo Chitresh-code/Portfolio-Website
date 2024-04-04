@@ -48,10 +48,10 @@ function Projects() {
             <ProjectCard
               imgPath={twitter}
               isBlog={false}
-              title="Twitter Sentiment Analysis"
+              title="Sentiment Analysis Using ML"
               description="This project performs sentiment analysis on Twitter data using a dataset of 1.6 million tweets sourced from Kaggle. The sentiment of each tweet is labeled as either negative (0) or positive (1). The analysis involves preprocessing the text data, including removing stopwords, stemming, and vectorization. The dataset is then split into training and testing data, and a logistic regression model is trained to classify the sentiment of tweets."
               ghLink="https://github.com/Chitresh-code/Twitter-Sentiment-Analysis"
-              // demoLink="url"      <-------- Demo link here               
+              demoLink="https://chitresh-g-sentiment-analysis.hf.space"              
             />
         </Col>
 
