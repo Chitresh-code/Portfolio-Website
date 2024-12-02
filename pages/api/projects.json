@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Self-RAG",
+    "image": "https://imgur.com/tAZotn3.png",
+    "description": "A self-Retrieval-Augmented Generation (self-RAG) pipeline built using Django REST API",
+    "tags": ["django", "REST", "LangChain", "LangGraph", "Python"],
+    "source_code": "https://github.com/Chitresh-code/Self-RAG"
+  },
+  {
+    "id": 2,
+    "name": "Info-Weave",
+    "image": "https://imgur.com/kbGs6zH.png",
+    "description": "A RAG system using LangChain and Ollama",
+    "tags": ["LangChain", "RAG", "Python", "Chainlit", "Ollama", "VectorDB"],
+    "source_code": "https://github.com/Chitresh-code/info-weave"
+  },
+  {
+    "id": 3,
+    "name": "Text Summarizer",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "A ML Model capable of summarizing text using advanced NLP techniques",
+    "tags": ["Python", "Flask", "FastAPI", "MLOps", "AWS"],
+    "source_code": "https://github.com/Chitresh-code/text-summarizer"
+  }
+]

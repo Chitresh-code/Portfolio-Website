@@ -1,0 +1,94 @@
+.container {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.message {
+  max-width: 600px;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: var(--article-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.message:hover {
+  transform: translateY(-5px);
+}
+
+.iconWrapper {
+  background: var(--accent-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(120deg, var(--accent-color), var(--accent-color-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.decoration {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.decoration span {
+  animation: bounce 2s infinite;
+}
+
+.decoration span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.decoration span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .message {
+    padding: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.75rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+}
