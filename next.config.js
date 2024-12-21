@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'build',
+  distDir: 'build', // Keeps the custom build directory.
   images: {
     unoptimized: true,
     domains: [
